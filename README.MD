@@ -2,19 +2,19 @@
 
 ## I've made this because there is not a good NPC Library for 1.21+, PumpkinNPCLib should work on 1.19-1.21.8.
 
-Creating NPC object:
+#### Creating NPC object:
         NPC npc = NPC.newNpcBuilder()
               .setName("testnpc")
               .setUuid(uuid)
               .setEntityId(-1)
               .setLocation(p.getLocation())
               .build()
-Spawn NPC for a player:
+#### Spawn NPC for a player:
         npc.spawnNpc(
               player,
               pluginInstance
         );
-Interaction example:
+#### Interaction example:
         NPC npc = NPC.newNpcBuilder()
                 .setName("testnpc")
                 .setUuid(uuid)
@@ -31,6 +31,7 @@ Interaction example:
                     }
                 })
                 .build();
-Make it <b>GLOW</b>!
+#### Make it <b>GLOW</b>!
+
 
 
